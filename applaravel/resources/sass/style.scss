@@ -1,0 +1,31 @@
+@import "reset";
+// Variables
+@import "_variables";
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px (la formule est 10/20*100) la taille par default étant 20px */
+    body {
+        background-color: $white;
+        font-family: $font-Text-Montserrat;
+        font-size: $font-Montserrat-size;
+        color: $grey;
+        text-align: center;
+        h1 {
+            font-family: $font-Titre-Lato;
+            font-size: $font-Lato-size;
+            color: $NewBlack;
+            text-transform: uppercase;
+        }
+        footer {
+            text-align: center;
+            width: 100%;
+            padding-right: var(--bs-gutter-x, 0.75rem);
+            padding-left: var(--bs-gutter-x, 0.75rem);
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 1320px;
+        }
+    }
+}
