@@ -18,7 +18,7 @@
         <div> {{ dump(config('project.name')) }}</div>
         <div> {{ dump(config('app.url')) }}</div>
         <div> {{ config('project.variable') }}</div>
-        <div></div>
+        <div>{{ tiko($tiko ?? null) }}</div>
         <div></div>
         <div></div>
     </main>

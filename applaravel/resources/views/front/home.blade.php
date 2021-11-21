@@ -1,4 +1,4 @@
-@extends('layouts.layout_front',['title' => "HOME-PAGE"])
+@extends('layouts.layout_front',['title' => "HOME-PAGE","tiko"=>"hello my dear" ])
 {{-- @section('title')
 HOME-PAGE
 @endsection --}}
