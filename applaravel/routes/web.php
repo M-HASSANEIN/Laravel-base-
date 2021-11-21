@@ -30,3 +30,7 @@ Route::get('/aboute', function () {
 Route::get('/menu', function () {
     return view("front.menu");
 })->name("menu");;
+
+Route::get('/helpme', function () {
+    return view("front.help");
+})->name("help");;

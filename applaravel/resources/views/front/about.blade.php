@@ -1,4 +1,4 @@
-@extends('layouts.layout_front' ,['title' => "ABOUT-PAGE"])
+@extends('layouts.layout_front' ,['title' => "ABOUT-PAGE ". config("app.name")])
 
 {{-- ONTHER WAY TO DEFIN TITLE --}}
 {{-- @section('title', 'ABOUT-PAGE') --}}

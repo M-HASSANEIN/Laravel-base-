@@ -11,5 +11,15 @@
 
     {{-- <title>@yield('title' ,env('APP_NAME'))</title> --}}
     {{-- YOU CAN USE ONTHER SYNTAX --}}
-    <title> {{ $title }}</title>
+    {{-- <title>
+        @if (isset($title))
+            {{ $title }}
+        @else
+            {{ config('app.name') }}
+        @endif
+
+    </title> --}}
+
+    <title> {{ $title ?? config('app.name') }}</title>
+
 </head>
