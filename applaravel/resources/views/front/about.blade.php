@@ -1,5 +1,7 @@
-@extends('layout_front')
-@section('title', 'ABOUT-PAGE')
+@extends('layouts.layout_front' ,['title' => "ABOUT-PAGE"])
+
+{{-- ONTHER WAY TO DEFIN TITLE --}}
+{{-- @section('title', 'ABOUT-PAGE') --}}
 
 
 @section('content')

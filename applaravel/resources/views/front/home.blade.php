@@ -1,4 +1,4 @@
-@extends('layout_front')
+@extends('layouts.layout_front',['title' => "HOME-PAGE"])
 {{-- @section('title')
 HOME-PAGE
 @endsection --}}

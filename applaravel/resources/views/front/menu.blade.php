@@ -1,5 +1,5 @@
-@extends('layout_front')
-@section('title', 'Menu - ' . env('APP_NAME'))
+@extends('layouts.layout_front' ,['title' => "MENU-PAGE"])
+{{-- @section('title', 'Menu - ' . env('APP_NAME')) --}}
 
 @section('content')
     <div>
