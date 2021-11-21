@@ -11551,6 +11551,7 @@ html body h1, html body .h1 {
   font-size: 4rem;
   color: #07081f;
   text-transform: uppercase;
+  color: red;
 }
 html body footer {
   text-align: center;

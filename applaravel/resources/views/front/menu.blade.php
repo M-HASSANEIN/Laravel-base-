@@ -1,5 +1,5 @@
 @extends('layout_front')
-@section('title', 'menu ' . env('APP_NAME'))
+@section('title', 'Menu - ' . env('APP_NAME'))
 
 @section('content')
     <div>
